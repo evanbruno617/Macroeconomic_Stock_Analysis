@@ -15,10 +15,10 @@ https://developer.tdameritrade.com/
 ## Team Communication Protocols and Availability
 - Primary communication: Slack
 - Availability:
-    - **Alex** - weekdays free after 7pm, heads up on weekends (4 days advanced)
-    - **Evan** - weekdays free after 7pm, Saturday - free, Sunday - free after 6pm
-    - **Janice** - weekdays free after 6:30pm, Saturday - free mornings before 1pm, Sundays - free
-    - **Randy** - weekdays 6am-2pm work, Sunday - evening, Saturday - free
+    - **Alex** - weekdays after 7pm, heads up on weekends (4 days advanced)
+    - **Evan** - weekdays after 7pm, Saturday free, Sunday free after 6pm
+    - **Janice** - weekdays after 6:30pm, Saturday free mornings before 1pm, Sundays free
+    - **Randy** - weekdays after 3pm, Sunday evening, Saturday free
 
 ## Event Log
 
@@ -29,4 +29,4 @@ https://developer.tdameritrade.com/
 | Thu 6/16/2022  | Brainstorm visuals, clean data |
 | Tue 6/21/2022  | Machine Learning Model |
 | Wed 6/22/2022  | Discuss machine learning model, potential new project proposal |
-| Thu 6/23/2022  | New proposal approved, clean data, Machine Learning Model |
+| Thu 6/23/2022  | New proposal approved, review and clean data, start work on Machine Learning Model |
