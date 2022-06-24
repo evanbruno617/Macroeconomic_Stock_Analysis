@@ -15,4 +15,4 @@
 | Thu 6/16/2022  | Brainstorm visuals, clean data |
 | Tue 6/21/2022  | Machine Learning Model |
 | Wed 6/22/2022  | Discuss machine learning model, potential new project proposal |
-| Thu 6/23/2022  | Machine Learning Model |
+| Thu 6/23/2022  | New proposal approved, clean data, Machine Learning Model |
