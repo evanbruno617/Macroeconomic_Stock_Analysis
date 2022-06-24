@@ -129,8 +129,3 @@ dmypy.json
 .pyre/
 
 .DS_Store
-.env
-config.py
-config*
-
-Working_Folder/
