@@ -129,6 +129,5 @@ dmypy.json
 .pyre/
 .DS_Store
 Untitled5.ipynb
-LSTM.ipynb
 
 config.py
