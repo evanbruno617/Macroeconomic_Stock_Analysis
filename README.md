@@ -1,4 +1,4 @@
-# Money Maker (Stock Predictions)
+# Macroeconomic Stock Analysis
 
 ## Background
 Using stock price data to predict future stock prices as well as examining how macroeconomic factors will affect future stock prices as well (primarily focusing on inflationary data afflicting stock movement).
