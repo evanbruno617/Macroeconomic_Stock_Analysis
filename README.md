@@ -1,4 +1,4 @@
-# Money Maker (Stock Predictions)
+# Macroeconomic Stock Analysis
 
 ## Background
 Using stock price data to predict future stock prices as well as examining how macroeconomic factors will affect future stock prices as well (primarily focusing on inflationary data afflicting stock movement).
@@ -9,7 +9,8 @@ Due to the volatility in the current market, being able to predict how the stock
 https://developer.tdameritrade.com/
 
 ## Questions
-- How do macro economic factors such as inflation and interest rates  affect stock prices, and which industries does it affect the most?
+- How do macro economic factors such as inflation and interest rates affect stock prices?
+- Which industries does it affect the most?
 - Can you predict future stock prices using the stock’s price history?
 
 ## Team Communication Protocols and Availability
@@ -30,3 +31,4 @@ https://developer.tdameritrade.com/
 | Tue 6/21/2022  | Machine Learning Model |
 | Wed 6/22/2022  | Discuss machine learning model, potential new project proposal |
 | Thu 6/23/2022  | New proposal approved, review and clean data, start work on Machine Learning Model |
+| Tue 6/28/2022  | Machine Learning Model, database, schema |
