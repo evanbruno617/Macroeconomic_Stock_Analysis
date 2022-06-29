@@ -8,6 +8,9 @@ Due to the volatility in the current market, being able to predict how the stock
 ## Data Source(s)
 https://developer.tdameritrade.com/
 
+## Google Slides
+https://docs.google.com/presentation/d/1VC41FsF4wxUC1xERXznkjo1RJuBwVhkvmlMBqATeigs/edit?usp=sharing
+
 ## Questions
 - How do macro economic factors such as inflation and interest rates affect stock prices?
 - Which industries does it affect the most?
@@ -20,6 +23,9 @@ https://developer.tdameritrade.com/
     - **Evan** - weekdays after 7pm, Saturday free, Sunday free after 6pm
     - **Janice** - weekdays after 6:30pm, Saturday free mornings before 1pm, Sundays free
     - **Randy** - weekdays after 3pm, Sunday evening, Saturday free
+
+## Project Outline
+- 
 
 ## Event Log
 
