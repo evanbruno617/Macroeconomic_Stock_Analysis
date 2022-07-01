@@ -37,4 +37,4 @@ https://docs.google.com/presentation/d/1VC41FsF4wxUC1xERXznkjo1RJuBwVhkvmlMBqATe
 | Tue 6/21/2022  | Machine Learning Model |
 | Wed 6/22/2022  | Discuss machine learning model, potential new project proposal |
 | Thu 6/23/2022  | New proposal approved, review and clean data, start work on Machine Learning Model |
-| Tue 6/28/2022  | Machine Learning Model, database, schema |
+| Tue 6/28/2022  | Machine Learning Model, database, schema, Google slides |
