@@ -25,7 +25,20 @@ https://docs.google.com/presentation/d/1VC41FsF4wxUC1xERXznkjo1RJuBwVhkvmlMBqATe
     - **Randy** - weekdays after 3pm, Sunday evening, Saturday free
 
 ## Project Outline
-- 
+- WEEK 1
+    - Select topic and datasets
+    - Submit proposal
+    - Examine and clean data
+- WEEK 2
+    - Data Exploration: review available data sets, agree to a selection of indeces to use, and clean
+    - Database & schema: draft structure
+    - Machine Learning Model: draft ML model and connect to provisional database
+- WEEK 3
+    - Machine Learning Model: submit working code, determine additional training to take place
+    - Google slides: draft presentation slides
+    - Dashboard: have images, implement interactive element
+- WEEK 4
+    - Google slides: finalize and split presentation
 
 ## Event Log
 
@@ -37,4 +50,5 @@ https://docs.google.com/presentation/d/1VC41FsF4wxUC1xERXznkjo1RJuBwVhkvmlMBqATe
 | Tue 6/21/2022  | Machine Learning Model |
 | Wed 6/22/2022  | Discuss machine learning model, potential new project proposal |
 | Thu 6/23/2022  | New proposal approved, review and clean data, start work on Machine Learning Model |
-| Tue 6/28/2022  | Machine Learning Model, database, schema, Google slides |
+| Tue 6/28/2022  | Machine Learning Model, database, schema, Google slides draft |
+| Thu 6/30/2022  | Finalize database & Machine Learning Model, review HTML page |
