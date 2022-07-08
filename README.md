@@ -6,7 +6,8 @@ Using stock price data to predict future stock prices as well as examining how m
 Due to the volatility in the current market, being able to predict how the stock market will react in the upcoming months could help us significantly with our financial decisions. 
 
 ## Data Source(s)
-https://developer.tdameritrade.com/
+- https://developer.tdameritrade.com/
+- https://fred.stlouisfed.org/
 
 ## Google Slides
 https://docs.google.com/presentation/d/1VC41FsF4wxUC1xERXznkjo1RJuBwVhkvmlMBqATeigs/edit?usp=sharing
