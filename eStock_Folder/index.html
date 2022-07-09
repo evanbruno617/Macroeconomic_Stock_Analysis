@@ -27,6 +27,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- d3 JavaScript -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
   <!-- =======================================================
   * Template Name: eBusiness - v4.7.0
   * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
@@ -42,7 +45,7 @@
     <div class="container d-flex justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.html"><span>e</span>StockMarket</a></h1>
+        <h1><a href="index.html"><span></span>EconomicData</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -89,31 +92,51 @@
 
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg)">
+          <div class="carousel-item active" style="background-image: url(assets/img/industrial.png)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">The Best Stock Market Information </h2>
-                <p class="animate__animated animate__fadeInUp">We're In The Business Of Helping You Make Great Stock Market Gains</p>
+                <h2 class="animate__animated animate__fadeInDown">Industrial Production </h2>
+                <p class="animate__animated animate__fadeInUp">Using industrial production numbers over the past 20 years</p>
                 <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/retail.png)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
-                <p class="animate__animated animate__fadeInUp">Helping Business Security & Peace of Mind for Your Family</p>
+                <h2 class="animate__animated animate__fadeInDown">Retail Data</h2>
+                <p class="animate__animated animate__fadeInUp">Using retail sales numbers spanning 20 years</p>
                 <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/inflation.png)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
-                <p class="animate__animated animate__fadeInUp">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem</p>
+                <h2 class="animate__animated animate__fadeInDown">Inflation Rates</h2>
+                <p class="animate__animated animate__fadeInUp">Considering inflationary data since 2002</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/interest.png)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Interest Rates</h2>
+                <p class="animate__animated animate__fadeInUp">Using interest rates from the past 20 years</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/unemployment.png)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Unemployment Rates</h2>
+                <p class="animate__animated animate__fadeInUp">Using unemployment data from 2002 to present day</p>
                 <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
@@ -135,179 +158,20 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <div id="about" class="about-area area-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>About eStockMarket</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <!-- single-well start-->
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="well-left">
-              <div class="single-well">
-                <a href="#">
-                  <img src="assets/img/about/1.jpg" alt="">
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- single-well end-->
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="well-middle">
-              <div class="single-well">
-                <a href="#">
-                  <h4 class="sec-head">project financial well-being</h4>
-                </a>
-                
-                  Using stock price data to predict future stock prices as well as examining how macroeconomic factors will affect future stock prices as well (primarily focusing on inflationary data afflicting stock movement).
-                </p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check"></i> Predict future stock prices
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i> How economic factors such as inflation affect stock prices
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i> How using stock prices will influence our financial decisions
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i> How current interest rates affect stock prices
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i> 
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- End col-->
-        </div>
-      </div>
-    </div><!-- End About Section -->
-
     <!-- ======= Services Section ======= -->
     <div id="services" class="services-area area-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline services-head text-center">
-              <h2>Our Services</h2>
+              <h2>Visual</h2>
+              <div class='tableauPlaceholder' id='viz1657251757603' style='position: relative'><noscript><a href='#'><img alt='Stock Analysis  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StockDataAnalysis_16570768798110&#47;StockAnalysis&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='StockDataAnalysis_16570768798110&#47;StockAnalysis' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StockDataAnalysis_16570768798110&#47;StockAnalysis&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657251757603');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
             </div>
+            
           </div>
         </div>
-        <div class="row text-center">
-          <!-- Start Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-briefcase"></i>
-                  </a>
-                  <h4>Expert Coder</h4>
-                  <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
-                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-card-checklist"></i>
-                  </a>
-                  <h4>Creative Designer</h4>
-                  <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
-                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-bar-chart"></i>
-                  </a>
-                  <h4>Wordpress Developer</h4>
-                  <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
-                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-binoculars"></i>
-                  </a>
-                  <h4>Social Marketer </h4>
-                  <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
-                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <!-- End Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-brightness-high"></i>
-                  </a>
-                  <h4>Seo Expart</h4>
-                  <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
-                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <!-- End Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-calendar4-week"></i>
-                  </a>
-                  <h4>24/7 Support</h4>
-                  <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
-                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
           </div>
         </div>
-      </div>
-    </div><!-- End Services Section -->
 
     <!-- ======= Team Section ======= -->
     <div id="team" class="our-team-area area-padding">
@@ -423,7 +287,7 @@
             <div class="single-team-member">
               <div class="team-img">
                 <a href="#">
-                  <img src="assets/img/team/4.jpg" alt="">
+                  <img src="assets/img/team/5.jpg" alt="">
                 </a>
                 <div class="team-social-icon text-center">
                   <ul>
@@ -466,131 +330,26 @@
             <div class="section-headline text-center">
               <h2>Our Stock Analysis</h2>
             </div>
+              <div class="row">
+                <div class="col-md-6">
+                <img src="assets/img/Images/predict_qqq.png" width="800" height="200">
+              </div>
+              <div class="col-md-6">
+                <img src="assets/img/Images/simliarity.png" width="800" height="400">
+              </div>
+              </div>
+              <p>Using the percent change columns of the economic data, volume, and percent gain of the current month as well as the percent gain of the previous month we created our training model. We tested for the “R/G” column for whether or not the next month would having a negative or positive gain. We then split our training and testing sets and scaled the data. Afterwards we used “RandomOverSampler” to resample the data in order to have equal amount of outcomes to fit the model. I chose to use a RandomForestClassification model because since stocks have a lot of variability and volatility in their price action history I wanted to create stronger models off of weak ones in order to better understand how stock prices would be affected by these economic factors. Using this process I was able to have an accuracy of 65% which is a 15% improvement form using this same model but with only the Open, Close, and Volume columns. </p>
+              <p>For the second model I used the same process using the same columns for the training and testing sets. However with this model I using the dataset including the stocks from the QQQ index to train the model. I then tested this model on the QQQ data to see how well it predicted the gain based on the data from all of the stocks combined. The model had an accuracy of 69% and when predicting the QQQ data it had an accuracy of 68%. What says is given the same economic conditions and how each of these stocks within the QQQ index performed. </p>
+            </div>
           </div>
         </div>
         <div class="row wesome-project-1 fix">
           <!-- Start Portfolio -page -->
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Slide Presentation</li>
-              <li data-filter=".filter-card">Tableau</li>
-              <li data-filter=".filter-web">Resources</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row awesome-project-content portfolio-container">
-
-          <!-- portfolio-item start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app portfolio-item">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/1.jpg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/1.jpg">
-                      <h4>Business City</h4>
-                      <span>Web Development</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
+          <div class="container">
+            <div class="row">
             </div>
           </div>
           <!-- portfolio-item end -->
-
-          <!-- portfolio-item start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/2.jpg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/5.jpg">
-                      <h4>Blue Sea</h4>
-                      <span>Photosho</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- portfolio-item end -->
-
-          <!-- portfolio-item start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-card">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/3.jpg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/3.jpg">
-                      <h4>Beautiful Nature</h4>
-                      <span>Web Design</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- portfolio-item end -->
-
-          <!-- portfolio-item start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/4.jpg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/4.jpg">
-                      <h4>Creative Team</h4>
-                      <span>Web design</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- portfolio-item end -->
-
-          <!-- portfolio-item start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/5.jpg" alt="" /></a>
-                <div class="add-actions text-center text-center">
-                  <div class="project-dec">
-                    <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/5.jpg">
-                      <h4>Beautiful Flower</h4>
-                      <span>Web Development</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- portfolio-item end -->
-
-          <!-- portfolio-item start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/6.jpg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/6.jpg">
-                      <h4>Night Hill</h4>
-                      <span>Photoshop</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- portfolio-item end -->
-
-        </div>
       </div>
     </div><!-- End Portfolio Section -->
 
@@ -605,7 +364,7 @@
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
             <div class="suscribe-text text-center">
-              <h3>Welcome to our eBusiness company</h3>
+              <h3>Welcome to our estockmarket company</h3>
               <a class="sus-btn" href="#">Get A quote</a>
             </div>
           </div>
@@ -715,7 +474,7 @@
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo">
-                  <h2><span>e</span>Business</h2>
+                  <h2><span>e</span>StockMarket</h2>
                 </div>
 
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
@@ -779,7 +538,7 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="copyright text-center">
               <p>
-                &copy; Copyright <strong>eBusiness</strong>. All Rights Reserved
+                &copy; Copyright <strong>eStockMarket</strong>. All Rights Reserved
               </p>
             </div>
             <div class="credits">
@@ -809,6 +568,11 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+<!-- Our JavaScript -->
+<script type="module" src="assets/js/data.js"></script>
+<script type="text/javascript" src="static/js/plot.js"></script>
+
 
 </body>
 
