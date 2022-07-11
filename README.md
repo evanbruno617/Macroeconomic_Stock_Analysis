@@ -56,3 +56,9 @@ https://docs.google.com/presentation/d/1VC41FsF4wxUC1xERXznkjo1RJuBwVhkvmlMBqATe
 | Tue 7/5/2022  | Google slides, data visualization discussion, Tableau |
 | Thu 7/7/2022  | Google slides, Tableau, HTML page |
 | Sun 7/10/2022  | Finalize presentation |
+
+## Presentation and visual 
+
+[Html Page](https://evanbruno617.github.io/Macroeconomic_Stock_Analysis/)
+
+[Google Slides](https://docs.google.com/presentation/d/1VC41FsF4wxUC1xERXznkjo1RJuBwVhkvmlMBqATeigs/edit#slide=id.g13a96ebd9fe_0_216)
