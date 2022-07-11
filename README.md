@@ -55,3 +55,4 @@ https://docs.google.com/presentation/d/1VC41FsF4wxUC1xERXznkjo1RJuBwVhkvmlMBqATe
 | Thu 6/30/2022  | Finalize database & Machine Learning Model, review HTML page |
 | Tue 7/5/2022  | Google slides, data visualization discussion, Tableau |
 | Thu 7/7/2022  | Google slides, Tableau, HTML page |
+| Sun 7/10/2022  | Finalize presentation |
