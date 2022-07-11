@@ -14,11 +14,19 @@ Following this I split my data into training and testing sets with the testing b
 
 ![image](https://github.com/evanbruno617/Macroeconomic_Stock_Analysis/blob/Evan/Images/predict_qqq.png)
 
+The confusion matrix of this model the precision accuracy is 75% meaning of the predicted positive gain 75% of those predictions were right. The negative gain prediction had 50% accuracy. The recall for negative gain was 57% meaning of the total negative gain outcomes it predicted 57% of them and for the positive recall it had 69% accuracy. The recall here doesn't matter as much because we are relying on the precision accuracy. Having 75% accuracy for predicting positive gains is ideal
+
+![image](https://github.com/evanbruno617/Macroeconomic_Stock_Analysis/blob/Evan/Images/prediction.png)
+
 Then with the other model I used the data from all of the stocks data which ueses the economic data to predict future gain. By using this model it show how simliar these stocks are and how they effect the QQQ index. It shows how accurate this model is to predict QQQ future gain with same the economic conditions and gain of each of these stocks. 
 
 ![image](https://github.com/evanbruno617/Macroeconomic_Stock_Analysis/blob/Evan/Images/simliarity.png)
 
 I chose to use a RandomForestClassification model because since stocks have a lot of variability and volatility in their price action history I wanted to use this model to model stronger models off of weak ones in order to better understand how stock prices would be affected by these factors. The limitation of this model is being slower to predict data, however since the data being predicted is by month, this won't be an issue with predicting data in a timely manner. Benfit with using this model is that it performs classfication tasks with high accuracy and can also handle big data.
+
+![image](https://github.com/evanbruno617/Macroeconomic_Stock_Analysis/blob/Evan/Images/simliarity_matrix.png)
+
+With the simliarity model the precision accuracy of predicting positive gain is 76% with the negative gain being 61%. This means that of the gains predicted to be positive 76% of them were true and of the gains predicted to be negative 61% were false. The recall of positive gains is 69% and the negative gains is 68% meaning that of the total negative gains the model predicted 68% of them and the total positive gains the model predicted 69% of them. 
 
 
 
